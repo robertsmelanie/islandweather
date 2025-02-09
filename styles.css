@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 22px;
+    color: #0077cc;
+}
+
+label {
+    font-size: 18px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#hurricaneRisk {
+    font-weight: bold;
+}
+
+/* Colors for different hurricane risk levels */
+.low { color: green; }
+.medium { color: orange; }
+.high { color: red; }
