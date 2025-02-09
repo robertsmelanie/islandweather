@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USVI Weather & Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>USVI Weather & Best Travel Time Predictor ☀️</h1>
+        
+        <label for="month">Select Your Travel Month:</label>
+        <select id="month">
+            <option value="" disabled selected>Choose a month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <div id="result">
+            <h2>Weather Details:</h2>
+            <p><strong>Temperature:</strong> <span id="temp"></span></p>
+            <p><strong>Rainfall:</strong> <span id="rainfall"></span></p>
+            <p><strong>Hurricane Risk:</strong> <span id="hurricaneRisk"></span></p>
+            <p><strong>Festival & Events:</strong> <span id="events"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
